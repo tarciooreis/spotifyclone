@@ -1,0 +1,164 @@
+/*Estilização global*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+}
+
+/* TOPO */
+#header {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    height: 75px;
+}
+
+.header-container {
+    display: flex;
+    width: 75%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    height: 50%;
+}
+
+.header-container img {
+    height: 40px;
+    width: auto;
+}
+
+.header-container nav a{
+    margin-right: 30px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.header-container nav a:hover {
+    color: #1DB954;
+}
+
+span {
+    font-size: 14px;
+    color: #fff;
+    margin-right: 30px;
+}
+
+/* CONTEÚDO */
+main {
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /*background: url("./img/background\ 2.jpg") center center/cover;*/
+    background-color: #1DB954;
+    background-blend-mode: color;
+}
+
+main .content {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+main .content h1 {
+    color: #fff;
+    font-size: 58px;
+    margin: 20px;
+}
+
+main .phone img{
+    height: 600px;
+    width: auto;
+    margin-right: 30px;
+}
+
+main .content button {
+    border: none;
+    background-color: #fff;
+    color: black;
+    padding: 20px;
+    border-radius: 15px;
+    margin: 20px;
+    font-weight: bold;
+}
+
+/* RODAPÉ */
+
+#footer {
+    /*
+    */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    background-color: black;
+}
+
+.footer-container {
+    width: 75%;
+    height: 60vh;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 6%;
+}
+
+#footer img {
+    height: 40px;
+    width: auto;
+}
+
+.link-column {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1%;
+    height: 50%;
+}
+
+.link-column p {
+    color: gray;
+    font-weight: bold;
+    margin-bottom: 20%;
+}
+
+.link-column a {
+    margin-bottom: 20%;
+    text-decoration: none;
+    color: gainsboro;
+    font-weight: bold;
+}
+
+.link-column a:hover {
+    color: #1DB954;
+}
+
+.other-links {
+    width: 67%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.other-links a {
+    font-size: 12px;
+    text-decoration: none;
+    margin-right: 20px;
+    color: gray;
+}
+
+.other-links a:hover {
+    color: #1DB954;
+}
+
+.other-links p {
+    color: gray;
+    font-size: 12px;
+    margin-top: 8%;
+}
